@@ -1,0 +1,157 @@
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(img/dyp1.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    
+}
+
+
+    .text-box{
+        width: 60%;
+        color: #fff;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%,50%);
+        text-align: center;
+        font-family: "Sofia", sans-serif;
+        font-size: 25px;
+    }
+    
+    
+    .text-box h1{
+        font-size: 62px;
+    }
+    
+    
+    .text-box p {
+    
+        margin: 10px 0 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+    
+    .hero-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        background: transparent;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .hero-btn:hover{
+        border: 1px solid #ae7976;
+        background: #52b493;
+        transition: 1s;
+    }
+
+
+    .aitline{
+        font-family: Copperplate, Papyrus, fantasy;
+    }
+
+    /* //cards */   
+   
+    
+    /* navbar css*/
+    .navbar-brand{
+        padding-inline-start: 69%;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(111, 147, 118);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: rgb(133, 208, 150);
+      }
+      
+      .active {
+        background-color: #04AA6D;
+      }
+
+      .footer{
+        font-family: "Sofia", sans-serif;
+        font-size: 20px;
+
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   /*------Footer--------*/
+
+ .footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+
+}
+
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.footer p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.icons .fa{
+    color: #b3918f;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.fa-heart-o{
+    color: #b7b65f;
+}
